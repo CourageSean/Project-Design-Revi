@@ -1,0 +1,371 @@
+@font-face {
+  font-family: "Graphik-Medium";
+  src: url("../fonts/Graphik-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Graphik-Regular";
+  src: url("../fonts/Graphik-Regular.woff");
+}
+
+@font-face {
+  font-family: "Theinhardt-Lt";
+  src: url("../fonts/Theinhardt-Lt.woff");
+}
+
+@font-face {
+  font-family: "TiemposHeadline-Semibold";
+  src: url("../fonts/TiemposHeadline-Semibold.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*=======  Navigation ====== */
+#hero {
+  padding-top: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-right: 20%;
+}
+
+#nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  position: relative;
+}
+
+#nav-bar li {
+  padding: 10px;
+}
+
+#nav-bar li a {
+  text-decoration: none;
+  font-family: "Graphik-Regular";
+  color: #3d3e41;
+}
+
+#nav-bar li a:hover {
+  text-decoration: underline;
+}
+
+#logo a {
+  font-family: "TiemposHeadline-Semibold";
+  text-decoration: none;
+  color: #000;
+  font-size: 1.7rem;
+}
+
+#get-started {
+  text-decoration: none;
+  border: 2px solid #3d3e41;
+  padding: 2px 5%;
+  border-radius: 4px;
+  transition: background 0.5s;
+}
+
+#get-started:hover {
+  background-color: #2b2c2e;
+}
+
+#get-started:hover > h3 {
+  color: #fff;
+}
+
+#get-started h3 {
+  font-family: "Graphik-Medium";
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3d3e41;
+  padding-top: 4px;
+  transition: 0.5s;
+}
+
+#burger-menu {
+  background-position: absolute;
+}
+
+/* =======  Navigation END ======  */
+
+/* ======= Hero img ======= */
+header {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  text-align: center;
+  font-family: "Graphik-Medium";
+  font-size: 2rem;
+  font-weight: 500;
+}
+header img {
+  width: 100%;
+}
+
+/* ======= Hero img END =======  */
+
+/* ======= Section-1_article-1====== */
+
+#section-1 article:nth-of-type(1) {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+#section-1 article:nth-of-type(1) div:nth-of-type(1) {
+  width: 45%;
+  padding-left: 10%;
+}
+
+#section-1 article:nth-of-type(1) div:nth-of-type(1) p {
+  font-family: "Graphik-Medium";
+  line-height: 28px;
+}
+#section-1 article:nth-of-type(1) div:nth-of-type(2) {
+  padding-right: 20%;
+}
+
+#section-1 article:nth-of-type(1) div:nth-of-type(2) h2 {
+  font-family: "Theinhardt-Lt";
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#section-1 article:nth-of-type(1) div:nth-of-type(2) p {
+  font-family: "Theinhardt-Lt";
+  color: #9fa2a7;
+  font-weight: 500;
+}
+/* ======= Section-1_article-1 END====== */
+
+/* ======= Section-1_article-2====== */
+#section-1 article:nth-of-type(2) {
+  display: flex;
+
+  margin: auto;
+  width: 90%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: center;
+}
+
+#section-1 article:nth-of-type(2) img:nth-of-type(1) {
+  width: 35%;
+  height: 50%;
+}
+
+#section-1 article:nth-of-type(2) div {
+  width: 45%;
+  padding-left: 3%;
+}
+
+#section-1 article:nth-of-type(2) div h2 {
+  font-family: "TiemposHeadline-Semibold";
+  font-size: 2.3rem;
+  padding: 30px 0;
+}
+
+#section-1 article:nth-of-type(2) div h3 {
+  font-family: "Graphik-Medium";
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+#section-1 article:nth-of-type(2) div p {
+  font-family: "Theinhardt-Lt";
+  color: #9fa2a7;
+  padding-top: 30px;
+  width: 80%;
+}
+
+/* ======= Section-1_article-2 END====== */
+
+/* ======= Section-1_article-3 ====== */
+#section-1 article:nth-of-type(3) {
+  display: flex;
+  background-color: #f1f1f4;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#section-1 article:nth-of-type(3) div {
+  padding-left: 8%;
+}
+
+#section-1 article:nth-of-type(3) div h2 {
+  font-family: "TiemposHeadline-Semibold";
+  font-size: 2.3rem;
+  padding-bottom: 15px;
+}
+
+#section-1 article:nth-of-type(3) div ol {
+  padding-left: 5%;
+  padding-bottom: 15px;
+}
+
+#section-1 article:nth-of-type(3) div ol li,
+#section-1 article:nth-of-type(3) div p {
+  font-family: "Theinhardt-Lt";
+  color: #848689;
+  width: 75%;
+}
+
+#section-1 article:nth-of-type(3) img {
+  width: 50%;
+}
+
+/* ======= Section-1_article-3 END ====== */
+
+/* ======= Section-2_article-1&2 ====== */
+
+#section-2 article:nth-of-type(1),
+#section-2 article:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  position: relative;
+  padding-top: 100px;
+  margin: auto;
+}
+
+#section-2 article:nth-of-type(1) h2 {
+  font-family: "TiemposHeadline-Semibold";
+  font-size: 2.3rem;
+  padding-bottom: 30px;
+}
+
+#section-2 article:nth-of-type(1) p {
+  font-family: "Theinhardt-Lt";
+  color: #9fa2a7;
+  padding-top: 7px;
+}
+
+#section-2 article:nth-of-type(2) img:nth-of-type(1) {
+  width: 85%;
+}
+
+#section-2 article:nth-of-type(2) img:nth-of-type(2) {
+  position: absolute;
+  width: 40%;
+  right: 9%;
+  bottom: 140px;
+}
+
+#section-2 article:nth-of-type(2) p {
+  font-family: "TiemposHeadline-Semibold";
+  color: #848689;
+  line-height: 35px;
+  padding-right: 25%;
+}
+
+#hr-line {
+  height: 1px;
+  width: 90%;
+  display: inline-block;
+  background-color: #3d3e41;
+  margin-top: 200px;
+}
+/* ======= Section-2_article-1&2  END ====== */
+
+/* =========== Footer ============= */
+footer {
+  padding-bottom: 50px;
+}
+
+footer h2 {
+  font-family: "TiemposHeadline-Semibold";
+  font-size: 2.8rem;
+  text-align: center;
+  padding-top: 70px;
+}
+
+footer img {
+  width: 6%;
+}
+
+footer div p {
+  display: inline-block;
+  font-family: "Graphik-Medium";
+  align-self: flex-end;
+}
+
+.get-intouch {
+  display: flex;
+  justify-content: center;
+}
+
+/* ========= Media Queries ======== */
+
+@media (max-width: 450px) {
+  #nav-bar {
+    order: 3;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  #get-started {
+    border: none;
+  }
+
+  header h1 {
+    order: 2;
+    font-size: 1rem;
+    color: #848689;
+  }
+
+  #section-1 article:nth-of-type(2) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #section-1 article:nth-of-type(3) {
+    flex-direction: column;
+  }
+
+  #icon-bar {
+    display: inline-block;
+    width: 55px;
+    height: 4px;
+    background-color: #fbd641;
+    position: absolute;
+    right: 10%;
+    top: 16px;
+  }
+
+  #icon-bar1 {
+    content: "";
+    width: 55px;
+    height: 4px;
+    background-color: #f66041;
+    position: absolute;
+    top: 10px;
+    right: 10%;
+  }
+
+  #icon-bar2 {
+    content: "";
+    width: 55px;
+    height: 4px;
+    background-color: #662cab;
+    position: absolute;
+    top: 5px;
+    right: 10%;
+  }
+}
